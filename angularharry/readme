@@ -1,0 +1,7 @@
+
+npm i -g @angular/cli
+ng new cwh-todo-list
+npm i bootstrap
+
+npm i jquery
+ng generate component Mycomponents/todos
