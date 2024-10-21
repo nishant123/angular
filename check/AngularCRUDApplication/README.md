@@ -4,6 +4,10 @@ npm install bootstrap
 
 @import "~bootstrap/dist/css/bootstrap.css";
 
+ng generate component Home
+ng generate component AddEmployee
+ng generate component EditEmployee
+ng generate component ViewEmployee
 
 # AngularCRUDApplication
 

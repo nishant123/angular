@@ -7,6 +7,10 @@ import { HomeComponent } from './home/home.component';
 import { AddEmployeeComponent } from './add-employee/add-employee.component';
 import { EditEmployeeComponent } from './edit-employee/edit-employee.component';
 import { ViewEmployeeComponent } from './view-employee/view-employee.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -14,7 +18,9 @@ import { ViewEmployeeComponent } from './view-employee/view-employee.component';
     HomeComponent,
     AddEmployeeComponent,
     EditEmployeeComponent,
-    ViewEmployeeComponent
+    ViewEmployeeComponent,
+    HttpClientModule,
+    FormsModule
   ],
   imports: [
     BrowserModule,
