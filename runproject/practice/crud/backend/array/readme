@@ -1,0 +1,81 @@
+array based crud operation in node js
+
+command is 
+
+node index.js
+
+http://localhost:3000
+
+To fetch all the data
+
+http://localhost:3000/3
+
+To fetch id based data
+
+To add data
+
+post method
+http://localhost:3000/
+
+{
+    "name": "nishant",
+    "course": "btech",
+    "roll_no": "cse/03/127"
+}
+
+set json format in post
+
+
+To update data
+
+put method
+http://localhost:3000/4
+
+{
+    "name": "nishant",
+    "course": "btech",
+    "roll_no": "cse/03/127"
+}
+
+set json format in post
+
+
+To update specific data
+
+patch method
+http://localhost:3000/4
+
+{
+   
+    "course": "btech345",
+   
+}
+
+set json format in post
+
+To delete data
+
+delete method
+http://localhost:3000/5
+
+
+
+set json format in post
+
+
+
+
+install cors to resolve cors issue
+
+
+npm i cors
+
+    const cors = require('cors');
+
+const app = express();
+app.use(cors({
+        origin: '*', // Or an array of origins
+        methods: ['GET', 'POST'],
+        allowedHeaders: ['Content-Type', 'Authorization'],
+        credentials: true
+    }));
